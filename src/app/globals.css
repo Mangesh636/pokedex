@@ -96,5 +96,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
+  background: #4b4b4b;
   border-radius: 50%;
 }
