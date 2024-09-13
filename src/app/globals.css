@@ -90,3 +90,13 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  cursor: grabbing;
+  border-radius: 50px;
+}

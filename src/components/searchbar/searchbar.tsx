@@ -36,7 +36,7 @@ export const SearchBar = () => {
         onChange={(e) => setSearch(e.target.value)}
       />
       {suggestions.length > 0 && (
-        <ul className="flex flex-col gap-2 max-h-56 overflow-scroll scroll-smooth">
+        <ul className="flex flex-col gap-2 max-h-56 overflow-y-scroll overflow-x-hidden scroll-smooth">
           {suggestions.map((suggestion, index) => (
             <li
               key={index}
