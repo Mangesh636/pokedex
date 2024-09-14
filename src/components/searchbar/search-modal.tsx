@@ -21,7 +21,7 @@ export const SearchModal = () => {
           <MagnifyingGlassIcon fontSize={24} />
         </Button>
       </DialogTrigger>
-      <DialogContent className="flex flex-col items-center bg-white text-black rounded-lg">
+      <DialogContent className="flex flex-col items-center bg-white text-black rounded-lg sm:max-w-lg max-w-[400px]">
         <DialogHeader>
           <DialogTitle className="md:text-xl font-normal sm:text-lg">
             Enter Pokemon Name or Id
