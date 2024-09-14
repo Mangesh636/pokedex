@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn("text-base font-normal bg-white", rubik.className)}>
+      <body className={cn("text-base font-normal", rubik.className)}>
         {children}
       </body>
     </html>
